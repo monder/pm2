@@ -8,5 +8,8 @@
   "exec_mode" : "cluster_mode",
   "port" : "9001",
   "env_variable" : "TOTO",
+  "extra_env": [
+    "examples/extra_env.json"
+  ],
   "TEST_VARIABLE" : "YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSIR"
 }

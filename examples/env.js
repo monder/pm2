@@ -1,4 +1,4 @@
 
 setInterval(function() {
-  console.log('env TEST_VARIABLE = ', process.env.NODE_ENV);
+  console.log('env TEST_VARIABLE = ', process.env.TEST_VARIABLE);
 }, 1000);
